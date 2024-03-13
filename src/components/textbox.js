@@ -9,8 +9,8 @@ export default function Textbox({textBox, setTextBox}) {
 return(
     <div className={"textBox"}
          style={{
-             minWidth: '20px',
-             maxWidth: '350px',
+             minWidth: '10vw',
+             maxWidth: '20vw',
              height: '85vh',
              margin: '2vh',
              padding: '2vw',
