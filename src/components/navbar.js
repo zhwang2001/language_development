@@ -24,7 +24,8 @@ export default function Navbar({setValue}) {
                 onChange={handleSliderChange}
                 min={1}
                 max={3}
-                style={{width: 300}}
+                style={{width: 400, color: 'black'}}
+                componentsProps={{ markLabel: { style: { color: 'black', fontSize: '30px' } } }}
             />
         </Box>
     )

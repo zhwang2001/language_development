@@ -18,25 +18,25 @@ import Navbar from './components/navbar'
 
 function App() {
 
+    //state management for selecting which page to display
     const [value, setValue] = useState(0)
 
     const pages = [
-        <Age1 />,
-        <Age2 />,
-        <Age3 />,
+        <Age1/>,
+        <Age2/>,
+        <Age3/>,
     ]
 
-    const [textBox, setTextBox] = useState([])
 
     return (
-        <>
+        <div style={{display: 'flex', flexDirection: 'row'}}>
         <img
-            src={"https://png.pngtree.com/background/20230519/original/pngtree-an-old-book-has-a-new-home-under-a-full-moon-picture-image_2660440.jpg"}
+            src={"https://media.istockphoto.com/id/165764651/vector/nature.jpg?s=612x612&w=0&k=20&c=QX_6BZLJW6U4scJGdInybQoR4Bo6qqwhGASgGJZrOEw="}
             style={{width: '100vw', height: '100vh'}}
         />
         <Navbar setValue={setValue}/>
         {pages[value]}
-        </>
+        </div>
   );
 }
 
