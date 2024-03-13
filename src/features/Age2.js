@@ -31,7 +31,7 @@ export default function Age2() {
                 <div className="Interactive Field">
                     <InteractiveElement img={plant} posX={60} posY={10} text="plant" sound={plant_sound} textBox={textBox} setTextBox={setTextBox}/>
                     <InteractiveElement img={car} posX={40} posY={20} text="car" sound={car_sound} textBox={textBox} setTextBox={setTextBox}/>
-                    <InteractiveElement img={astronaut} posX={30} posY={60} text="astronaught" sound={astronaut_sound} textBox={textBox} setTextBox={setTextBox}/>
+                    <InteractiveElement img={astronaut} posX={30} posY={50} text="astronaut" sound={astronaut_sound} textBox={textBox} setTextBox={setTextBox}/>
                     <InteractiveElement img={skyscraper} posX={50} posY={55} text="skyscraper" sound={skyscraper_sound} textBox={textBox} setTextBox={setTextBox}/>
                     <InteractiveElement img={waterfall} posX={20} posY={10} text="waterfall" sound={waterfall_sound} textBox={textBox} setTextBox={setTextBox}/>
 

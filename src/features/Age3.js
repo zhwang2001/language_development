@@ -31,7 +31,7 @@ export default function Age3() {
 
                     <InteractiveElement img={plant} posX={60} posY={10} text="Plants absorb sunlight" sound={plant_fact} textBox={textBox} setTextBox={setTextBox}/>
                     <InteractiveElement img={car} posX={40} posY={20} text="Cars are fast" sound={car_fact} textBox={textBox} setTextBox={setTextBox}/>
-                    <InteractiveElement img={astronaut} posX={30} posY={60} text="Astronauts go to space" sound={astronaut_fact} textBox={textBox} setTextBox={setTextBox}/>
+                    <InteractiveElement img={astronaut} posX={30} posY={50} text="Astronauts go to space" sound={astronaut_fact} textBox={textBox} setTextBox={setTextBox}/>
                     <InteractiveElement img={skyscraper} posX={50} posY={55} text="Skyscrapers are tall" sound={skyscraper_fact} textBox={textBox} setTextBox={setTextBox}/>
                     <InteractiveElement img={waterfall} posX={20} posY={10} text="Waterfalls flow off a ledge" sound={waterfall_fact} textBox={textBox} setTextBox={setTextBox}/>
 
